@@ -1,0 +1,325 @@
+/* ##### MAIN ######  */
+
+body {
+    font-family: 'lato', sans-serif;
+    /* color: ;*/
+    background-color: #fff;
+}
+
+.btn-success {
+    background-color: #21917F;
+    border-color: #21917F;
+}
+
+.btn-success:hover {
+    background-color: #21917F;
+    border-color: #21917F;
+    opacity: .8;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    width : 100%;
+}
+
+
+
+/* ##### TYPOGRAPHY ######  */
+
+h1,h2,h3,h4,h5,h6 {
+    /* color: ; */
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+h6 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+}
+
+/* ##### HEADER ######  */
+
+#menu {
+   background-color: #343B42;
+   opacity: .9;
+}
+
+.navbar {
+    background-color: #343B42;
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 3rem;
+    border-color: #343B42;
+}
+
+.navbar-outer {
+    width: 1200px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    margin-left: 5px;
+    line-height: 1rem;   
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #A92CB0;
+    border-bottom: 1px solid #A92CB0;
+    transition: all .7s ease; 
+}
+
+.navbar-inverse .navbar-nav >  .active > a {
+    border-bottom: 1px solid #fff;
+    background-color: #343B42;
+}
+
+.navbar-inverse .navbar-nav >  .active > a:hover {
+    color: #A92CB0;
+    background-color: #343B42;
+}
+
+
+
+/* ##### SLIDER ######  */
+
+
+.carousel .item {
+    width: 100%;
+    max-height: 750px;
+}
+
+.carousel .item {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 15%;
+    bottom: auto;
+}
+
+.carousel-caption h1 {
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.carousel-indicators > li {
+    padding-left: 3em;
+}
+
+/* ##### ABOUT ######  */
+
+#about {
+    padding-bottom: 3rem;
+    text-align: center;   
+}
+
+.about_header {
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.blue_header {
+    color: #0758A8;
+
+}
+
+.thumbnail {
+    padding: 2rem;
+    border-radius: 4em;
+    background-color: #BADBDA;
+}
+
+.thumbnail > p {
+   font-size: 1.5rem;
+}
+
+#about img:hover {
+    -webkit-animation: tada .9s;
+    animation: tada .9s;
+}
+
+
+
+/* ##### TEAM #########  */
+
+#team {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #BADBDA;
+    margin-bottom: 0;
+}
+
+.team_header {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.team_photo {
+    padding: 1.7rem;
+    margin: 0 auto;
+}
+
+#team img:hover {
+    -webkit-animation: pulse .9s;
+    animation: pulse .9s;
+}
+
+
+/* ##### LATEST NEWS - AKTUALNOŚCI ######  */
+
+#my_news {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    min-height: 50rem;
+    background-color: #000;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/background/mountains.jpg) repeat 0 800px fixed;
+    color: #B3BABD;
+}
+
+
+.news_header {
+    text-align: center;
+}
+
+.panel-heading {
+    padding-bottom: 2rem;
+}
+
+
+.panel-heading a {
+    color: #B3BABD;
+}
+
+.panel-body {
+    background-color: #B3BABD;
+    color: #000;
+}
+
+
+/* ##### TRAVEL - ZWIEDZAJ Z NAMI######  */
+
+#my_travel {
+    padding-top: 5rem;
+    padding-bottom: 3em;
+    text-align: center; /* nie dziala dla buttonow */
+}
+
+.travel_header {
+    text-align: center;
+} 
+
+.travel_header h3 {
+    font-size: 1.7em;
+}
+
+.nav-pills li {
+    padding-left: 1rem;
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.nav-pills {
+    text-align: center;
+}
+
+.team_buttons {
+    margin: .5em auto 1em;
+}
+
+.team_buttons > li.active > a,
+.team_buttons > li.active > a:focus, 
+.team_buttons > li.active > a:hover {
+    color: #fff;
+    background-color: #BADBDA;
+}
+
+.team_buttons > li > a {
+   color: #BADBDA;
+   border: 1px solid #BADBDA;
+}
+
+.team_buttons > li > a:hover {
+    background-color: #BADBDA;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.travel_pics a:hover img {
+    -webkit-animation: pulse .9s;
+    animation: pulse .9s;
+    opacity: .8;
+}
+
+
+/* ##### CONTACT ######  */
+
+#my_contact {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: url(../img/background/mountains3.jpg) repeat 0 853px fixed;
+
+}
+
+#my_contact button:hover {
+    -webkit-animation: pulse .9s;
+    animation: pulse .9s;
+}
+
+.contact_container {
+    color: #B3BABD
+}
+
+/* ##### FOOTER ######  */
+
+
+#my_footer { 
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-bottom: 3em;
+    background-color: #526166;
+    text-align: left;
+}
+
+#my_footer h4 {
+    color: #7F4082;
+}
+
+#my_footer img {
+    margin-right: 1em;
+    width: 4rem;
+}
+
+.footer_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

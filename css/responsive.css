@@ -1,0 +1,234 @@
+@media (min-width: 1200px) {
+    html {
+        font-size: 60%;
+        line-height: 1.2rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 50%;
+        line-height: 1.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 40%;
+        line-height: 1.2rem;
+    }
+}
+
+@media (max-width: 570px) {
+    #about h3,
+    #team h3,
+    #my_news h3,
+    #my_travel h3 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #about h4,
+    #my_news h4,
+    #my_contact h4,
+    #my_footer h4 {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    #my_news h2,
+    #my_travel h2,
+    #my_contact h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    #team p {
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+
+    .panel-heading {
+        padding-bottom: 0;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+    .carousel-caption h1,
+    .carousel-caption p {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .navbar-inverse .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        text-align: center;
+    }
+
+    .navbar-inverse .navbar-nav > li  {
+        width: 50%;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #my_footer > h4, 
+    #my_footer > img
+    {
+        font-size: 30%;
+        line-height: 1.2rem;
+    }
+
+
+}
+
+@media (max-width: 490px) {
+    .carousel-caption h1,
+    .carousel-caption p {
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+       
+ }
+
+@media (max-width: 369px) {
+    .carousel-caption h1,
+    .carousel-caption p {
+         font-size: 1.2rem;
+         line-height: 2rem;
+    }
+
+    .navbar-inverse .navbar-nav > li  {
+        width: 60%;
+    }
+
+           
+ }
+
+ @media (max-width: 325px) {
+    .carousel-caption h1,
+    .carousel-caption p {
+         font-size: 1.2rem;
+         line-height: 1.2rem;
+     }
+
+    .navbar {
+        padding-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .navbar-inverse .navbar-nav > li  {
+        width: 100%;
+    }
+
+    .carousel-indicators > li {
+        padding-left: 0;
+    }
+           
+ }
+
+ @media (max-width: 269px) {
+ 
+   .carousel {
+        position: relative;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        bottom: -10px;
+    }
+
+    .carousel-caption h1,
+    .carousel-caption p {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+     }
+
+
+}
+
+@media (min-width: 230px) and (max-width: 340px) {
+    #about h3,
+    #team h3,
+    #my_news h3,
+    #my_travel h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    #about h4,
+    #my_news h4,
+    #my_contact h4,
+    #my_footer h4 {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+
+    #my_news h6 {
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+
+    #my_news h2,
+    #my_travel h2,
+    #my_contact h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #team p,
+    #about p {
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+    }
+
+    #about {
+        padding-bottom: 1.5rem;
+       
+    }
+
+    .about_header {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .team_header {
+        padding-bottom: 1rem;
+        margin-bottom: 0;
+    }
+
+    .team_photo {
+        padding: 0;
+    }
+}
+
+@media (min-width: 230px) and (max-width: 440px) {
+    #my_footer {
+        padding-top: 1.5em;
+        padding-left: .5em;
+        padding-bottom: .5em;
+        text-align: right;
+    }
+
+    #my_footer img {
+        width: 3rem;
+        margin-right: .5rem;
+    }
+
+    #my_footer .flaticon {
+        font-size: 1rem;
+        padding-top: 3em;
+        padding-bottom: 0;
+        text-align: left;
+    }
+}
